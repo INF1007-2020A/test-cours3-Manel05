@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import string
 def capitaliser_pays(nom):
     # TODO completer la fonction
-    return nom
+    return nom.capitalize()
 
 
 if __name__ == '__main__':
@@ -21,5 +22,5 @@ if __name__ == '__main__':
     ]
     for i in range(len(pays)):
         pays[i] = capitaliser_pays(pays[i])
-
+        #print(pays[i])
     print(pays)
